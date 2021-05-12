@@ -1,12 +1,16 @@
 <?php
 
-$postfields="get_blockchain_state";
+$pdata=array('height' => "111");
+
+$postfields="get_block_record_by_height";
+
+
 
 $url="https://localhost/".$postfields;
 
 
 
-            $postData = json_encode($postfields);
+            $postData = json_encode($pdata);
             
         
        
