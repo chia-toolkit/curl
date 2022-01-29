@@ -57,22 +57,32 @@ print_r($total);
 
 echo "<br><br>";
 
-foreach ($total as $k=>$v) 
-	
-	{  
+foreach ($total as $k=>$v) {  
  echo "key=$k<br>";  
-
  foreach($v as $a=>$b){  
 	
-		echo "key=$a<br>"; 
+	 echo "key=$a<br>";
 
-		foreach($b as $c=>$d){  
+	 if($a=="offered"){
+
+	  foreach($b as $c=>$d){  
 	
-			echo "key=$c<br>"; 
-			echo "key=$d<br>"; 
-							}  
-						}  
+	 echo "okey=$c<br>"; 
+	 echo "ovalue=$d<br>"; }
+							}
+
+	 	 if($a=="requested"){
+
+	  foreach($b as $f=>$g){  
+	
+	 echo "rkey=$f<br>"; 
+	 echo "rvalue=$g<br>"; }
+							 }
+
+	 
+			}  
 		}  
+  
 
 
 			
