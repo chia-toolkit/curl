@@ -4,8 +4,7 @@
 $comm="a";
 
 
-	$evdata=$checkev["value"];
-	
+
 	
 	
 	$evfile="event/".$comm.".txt";
