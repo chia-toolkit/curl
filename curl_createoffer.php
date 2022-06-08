@@ -1,13 +1,7 @@
 <?php
 
-
-
-
-
 $valueo=array("2"=>-1000,"1"=>1000000000);
 
-
-$file="e.offer";
 
 //offer
 
